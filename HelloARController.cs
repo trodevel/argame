@@ -76,6 +76,7 @@ namespace GoogleARCore.Examples.HelloAR
         /// </summary>
         private void debug_log( string msg )
         {
+            GUI.Label( new Rect( 10, 10, 100, 20 ), "Hello World!" );
         }
 
         /// <summary>
