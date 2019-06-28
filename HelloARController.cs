@@ -72,6 +72,13 @@ namespace GoogleARCore.Examples.HelloAR
         private bool m_IsQuitting = false;
 
         /// <summary>
+        /// Prints debug information in GUILabel 
+        /// </summary>
+        private void debug_log( string msg )
+        {
+        }
+
+        /// <summary>
         /// The Unity Update() method.
         /// </summary>
         public void Update()
